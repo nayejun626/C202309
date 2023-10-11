@@ -10,11 +10,11 @@ int main()
     {
         for (int j = 0; j < floor - 1 - i; j++) // s 출력 (공백대신)
         {
-            printf("s");
+            printf(" ");
         }
         for (int k = 0; k < (i * 2) + 1; k++) // 별 출력
         {
-            printf("*");
+            printf("p");
         }
         printf("\n"); // 개행 출력
     }
