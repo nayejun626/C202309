@@ -8,7 +8,7 @@ int main()
 
     for (int i = 0; i < floor; i++) // 층수만큼 반복
     {
-        for (int j = 0; j < floor - 1 - i; j++) // s 출력 (공백대신)
+        for (int j = 0; j < floor - 1 - i; j++) // 공백출력
         {
             printf(" ");
         }
