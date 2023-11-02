@@ -8,13 +8,13 @@ int main()
 
     for (int i = 0; i < floor; i++) // 층수만큼 반복
     {
-        for (int j = 0; j < floor - 1 - i; j++) // 공백출력
+        for (int j = 0; j < floor - 1 - i; j++) // 공백(s)출력
         {
-            printf(" ");
+            printf("s");
         }
         for (int k = 0; k < (i * 2) + 1; k++) // 별 출력
         {
-            printf("p");
+            printf("*");
         }
         printf("\n"); // 개행 출력
     }
