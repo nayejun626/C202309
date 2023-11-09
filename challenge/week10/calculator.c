@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-double summation(int *a, int *b);
-double subtraction(int *a, int *b);
-double multiplication(int *a, int *b);
-double division(int *a, int *b);
+double summation(double *a, double *b);
+double subtraction(double *a, double *b);
+double multiplication(double *a, double *b);
+double division(double *a, double *b);
 
 int main()
 {
@@ -16,22 +16,22 @@ int main()
     return 0;
 }
 
-double summation(int *a, int *b)
+double summation(double *a, double *b)
 {
     return *a + *b;
 }
 
-double subtraction(int *a, int *b)
+double subtraction(double *a, double *b)
 {
     return *a - *b;
 }
 
-double multiplication(int *a, int *b)
+double multiplication(double *a, double *b)
 {
     return *a * *b;
 }
 
-double division(int *a, int *b)
+double division(double *a, double *b)
 {
     return *a / *b;
 }
